@@ -1,5 +1,5 @@
 from peewee import *
-db = SqliteDatabase("dev.db")
+db = connect(os.environ.get('postgres://hyphxcelvidxsi:8270306250fd6ad26f136cf1a2f8fb0d2bab56326b6807a1766e686bcbbc3467@ec2-54-225-200-15.compute-1.amazonaws.com:5432/d6p8rjeoeeflqu'))
 
 class BaseModel(Model):
     class Meta:
