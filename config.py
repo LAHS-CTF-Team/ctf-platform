@@ -25,7 +25,7 @@ immediate_scoreboard = False
 # Useful for verifying resumes and use with resume server.
 confirm_ip = []
 
-static_prefix = "http://127.0.0.1/tjctf-static/"
+static_prefix = "http://lahsctf2018.herokuapp.com/tjctf-static/"
 static_dir = "{}/static/".format(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 custom_stylesheet = "tjctf.css"
 
