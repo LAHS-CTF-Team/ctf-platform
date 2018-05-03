@@ -30,7 +30,7 @@ static_dir = "{}/static/".format(os.path.dirname(os.path.dirname(os.path.abspath
 custom_stylesheet = "tjctf.css"
 
 competition_begin = datetime(1970, 1, 1, 0, 0)
-competition_end = datetime(2018, 1, 1, 0, 0)
+competition_end = datetime(2018, 7, 1, 0, 0)
 
 # Are you using a resume server?
 resumes = True
