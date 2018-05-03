@@ -2,7 +2,8 @@ from peewee import *
 # from db import models
 db = PostgresqlDatabase('d6p8rjeoeeflqu', user='hyphxcelvidxsi', password='8270306250fd6ad26f136cf1a2f8fb0d2bab56326b6807a1766e686bcbbc3467',
                            host='ec2-54-225-200-15.compute-1.amazonaws.com', port=5432)
-class Meta:
+class BaseModel(Model):
+    class Meta:
         database = db
 
 class Team(BaseModel):
